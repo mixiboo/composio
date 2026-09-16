@@ -1,0 +1,20 @@
+{
+  "name": "github-integration-example",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Minimal GitHub integration example using Composio",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun src/index.ts",
+    "typecheck": "tsc --noEmit -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@composio/core": "workspace:*",
+    "dotenv": "catalog:"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "typescript": "catalog:"
+  },
+  "type": "module"
+}
